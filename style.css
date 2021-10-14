@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .centered {
+    width: 630px;
+    height: 309px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    margin: 0 auto;
+  }
+
+.nav{
+    background-color: cornflowerblue;
+    /* display: flex; */
+    height: 77px;
+    /* margin-bottom: 20px; */
+  }
+
+#logo{
+    width: 80px;
+    position: relative;
+    top: 27px;
+    left: 30px;
+}
+
+.name{
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.location{
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 32px;
+}
+
+h4{
+    width: 53px;
+    margin-left: 9px;
+}
+
+.location_relative{
+    width: 13px;
+    margin-left: 8px;
+}
+
+.job{
+    position: relative;
+    bottom: 56px;
+    margin-left: 27px;
+}
+
+.slogan{
+    position: relative;
+    bottom: 65px;
+    margin-left: 27px;
+}
+
+.profile {
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 92px;
+}
+
+.gear_relative{
+    width: 13px;
+    margin-left: 8px;
+}
+
+h5{
+    width: 65px;
+    margin-left: 9px;
+}
