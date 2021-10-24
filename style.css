@@ -2,87 +2,67 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-
-  .centered {
-    width: 630px;
-    height: 309px;
     background-color: white;
-    border-color: black;
-    border-style: solid;
+}
+
+.container {
+    width: 1000px;
+    background-color: white;
     margin: 0 auto;
-  }
-
-.nav{
-    background-color: cornflowerblue;
-    /* display: flex; */
-    height: 77px;
-    /* margin-bottom: 20px; */
-  }
-
-#logo{
-    width: 80px;
-    position: relative;
-    top: 27px;
-    left: 30px;
-}
-
-.name{
-    margin-top: 36px;
-    margin-left: 20px;
-}
-
-.location{
-    margin-left: 18px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    bottom: 32px;
 }
 
-h4{
-    width: 53px;
-    margin-left: 9px;
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #1770b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
 }
 
 .location_relative{
-    width: 13px;
-    margin-left: 8px;
+    height: 20px;
 }
 
-.job{
-    position: relative;
-    bottom: 56px;
-    margin-left: 27px;
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
 }
 
-.slogan{
-    position: relative;
-    bottom: 65px;
-    margin-left: 27px;
+a {
+    color: blue;
 }
 
-.profile {
-    margin-left: 18px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    bottom: 92px;
+#logo{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.gear_relative{
-    width: 13px;
-    margin-left: 8px;
-}
-
-h5{
-    width: 65px;
-    margin-left: 9px;
+.icon-s {
+    height: 20px;
 }

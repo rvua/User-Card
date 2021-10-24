@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-</head>
+</head> 
 <body>
-    <div class="centered">
-        <div class="nav">
-            <img src="./icons/user-circle.png" alt="user" id="logo">
-        </div> 
-        <div class="name">
-            <h1>John Doe</h1>
-        </div>
-        <div class="location">
-            <img src="./icons/map-marker.png" alt="location" class="location_relative">
-            <h4>Seattle</h4>
-        </div>
-        <p class="job">Developer | Engineer | Problem Solver</p>
-        <p class="slogan">Master of shadows and the Internet!</p>
-        <div class="profile">
-            <img src="./icons/gear.png" alt="gear" class="gear_relative">
-            <h5><a href="">Edit profile</a></h5>
+    <div class="container">
+        <div class="user-card">
+            <div class="card-header">
+                <img src="./icons/user-circle.png" alt="user" id="logo">
+            </div>
+            <div class="card-body">
+                <h1>John Doe</h1>
+                <h3>
+                    <img src="./icons/map-marker.png" alt="location" class="location_relative">
+                    Seattle
+                </h3>         
+                <p>Developer | Engineer | Problem Solver <br>
+                Master of shadows and the Internet!</p>
+                <p>
+                    <a href="#">
+                        <img src="./icons/gear.png" alt="gear" class="icon-s">
+                        Edit Profile
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
 </body>
